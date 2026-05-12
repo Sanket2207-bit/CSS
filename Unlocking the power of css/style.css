@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(226, 226, 251);
+}
+*{
+    color: rgba(30, 100, 23, 0.903);
+}
+h1{
+    color: rgb(221, 178, 186);
+}
+.italy{
+    color: darkcyan;
+}
+#idiot{
+    text-align: center;
+}
+input[type="text"]{
+    color: blue;
+}
+#a{
+    color: rgb(80, 37, 37);
+}
+.b{
+    color: rgb(60, 29, 111);
+}
+div{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing:1.3px;
+    text-decoration: underline dotted rgb(9, 67, 67);
+    /* here in text shadow the first 2 valur are the axis and the 3rd value means the blurness */
+    text-shadow: 0px 12px 20px black;
+}
+/* here rgb means which colour and after that the 4th one means how much percent of color should be shown */
+.hello{
+    background-color: rgb(120, 120, 120, 0.3);
+}

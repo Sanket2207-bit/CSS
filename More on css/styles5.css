@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(33, 162, 197);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(77, 120, 106);
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.child{
+    flex-shrink: 0;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 1px solid blanchedalmond;
+}

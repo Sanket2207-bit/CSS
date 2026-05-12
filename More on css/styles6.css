@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(33, 162, 197);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgba(21, 7, 7, 0.883);
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

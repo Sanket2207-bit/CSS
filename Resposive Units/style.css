@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(197, 179, 236);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    font-size:16px ;
+}
+.parent{
+    height: 50%;
+    width: 100px;
+    background-color: wheat;
+}
+.child{
+    height: 50%;
+    width: 60%;
+    background-color: rgb(100, 5, 21);
+}
+#first{
+    font-size: 2rem;
+}
+#second{
+    font-size: 2em;
+}
+.child2{
+    font-size: 32px;
+}

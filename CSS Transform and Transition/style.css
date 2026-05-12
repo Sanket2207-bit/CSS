@@ -1,0 +1,95 @@
+*{
+    background-color: black;
+    color: white;
+} 
+button{
+    background-color: chocolate;
+    border-radius: 12px;
+    border: 1px solid rgb(247, 244, 244);
+    transition: all ease-in-out 0.2s;
+    color: rgba(237, 229, 6, 0.954);
+}
+button:hover
+{
+    background-color: rgb(26, 61, 113);
+    color: rgb(144, 189, 102);
+    cursor: pointer;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+input:focus{
+    color: rgb(216, 216, 44);
+
+}
+li::before{
+    content: "";
+}
+li::after{
+    content: "";
+}
+.hey{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    transform: translate(100px,100px) scale(1.3) ;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+    
+}
+.hey:hover{
+    transform: scale(0.8) translate(100px,100px) rotate(45deg);
+}
+.hey1{
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    transform: translate(100px,100px) rotate(1deg) scale(1.3) skew(12deg, 18deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+    background-image: url(https://images.unsplash.com/photo-1758621518225-9248e65dbaee?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hey1:hover
+{
+    transform: scale(0.8) translate(100px,100px) rotate(1deg)  skew(12deg, 18deg);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    animation: animations 4s cubic-bezier(0.19, 1, 0.22, 1) 1s both;
+}
+@keyframes animations{
+    from{
+        background-color: blanchedalmond;
+    }
+    to{
+     background-color: blue;
+    }
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(12, 145, 98);
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    animation: animate 3s cubic-bezier(0.19, 1, 0.22, 1) 1s  both;
+}
+@keyframes animate {
+    0%{
+       background-color: rgb(12, 145, 98); 
+    }
+    50%{
+        background-color: palevioletred;
+    }
+    100%{
+        background-color: darkgray;
+    }
+}
